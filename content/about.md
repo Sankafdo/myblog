@@ -1,5 +1,5 @@
 ---
-title: "🙋🏻‍♂️About RideRadar"
+title: "🙋🏻‍♂️About"
 date: 
 hidemeta: true
 description: ""
