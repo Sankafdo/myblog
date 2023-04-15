@@ -24,7 +24,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: Cover_img/Fuel_Efficient_Cars.png # image path/url
+    image: Cover_img/fuel-efficient-cars.webp # image path/url
     alt: "Most Fuel Efficient Cars" # alt text
     caption: "Most Fuel Efficient Cars" # display caption under cover
     relative: false # when using page bundles set this to true

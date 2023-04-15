@@ -8,7 +8,7 @@ categories: ["Car Reviews"]
 author: "Sanka"
 description: "Explore the ultimate list of the world's top 10 cars, from luxury and performance cars to exotic supercars. Discover cutting-edge automotive engineering, driving experiences, innovative technology, and more. Find your dream car among the best in the industry."
 cover:
-    image: Cover_img/Best_Cars.webp # image path/url
+    image: Cover_img/Best-Cars.webp # image path/url
     alt: "Best Cars" # alt text
     caption: "Best Cars" # display caption under cover
     relative: false # when using page bundles set this to true
