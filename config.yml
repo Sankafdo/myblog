@@ -1,4 +1,4 @@
-baseURL:
+baseURL: "https://riderader.netlify.app/"
 title: RideRadar
 paginate: 5
 theme: PaperMod
