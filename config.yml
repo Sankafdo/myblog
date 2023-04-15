@@ -4,11 +4,11 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+#buildDrafts: false
+#buildFuture: false
+#buildExpired: false
 
-googleAnalytics: #UA-123-45
+#googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -41,7 +41,6 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
-  VisitCount: true
 
 #Serarch Options
   fuseOpts:
@@ -97,13 +96,13 @@ params:
     - name: github
       url: "https://github.com/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  #analytics:
+    #google:
+      #SiteVerificationTag: "XYZabc"
+    #bing:
+      #SiteVerificationTag: "XYZabc"
+    #yandex:
+      #SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: false # hide everywhere but not in structured data
