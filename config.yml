@@ -42,6 +42,9 @@ params:
   showtoc: true
   tocopen: true
 
+  cover:
+  linkFullImages: true
+
 #Serarch Options
   fuseOpts:
       isCaseSensitive: false
