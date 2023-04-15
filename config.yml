@@ -139,11 +139,11 @@ menu:
       url: /tags/
       weight: 30
     - identifier: archives
-      name: ⏱️Archives
+      name: ⏱Archives
       url: /archives/
       weight: 40
-    - identifier:about
-      name: 🙋🏻‍♂️About
+    - identifier: about
+      name: 🙋🏻About
       url: /about/
       weight: 50
     - identifier: search
