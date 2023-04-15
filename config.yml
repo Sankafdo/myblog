@@ -1,12 +1,12 @@
-baseURL: "https://riderader.netlify.app/"
+baseURL: https://riderader.netlify.app/
 title: RideRadar
 paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-#buildDrafts: false
-#buildFuture: false
-#buildExpired: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
 #googleAnalytics: UA-123-45
 
