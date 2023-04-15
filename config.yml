@@ -1,0 +1,168 @@
+baseURL:
+title: RideRadar
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: #UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: RideRadar
+  description: "ExampleSite description"
+  keywords: [Blog, LuxuryCars, Automobile]
+  author: Sanka
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  VisitCount: true
+
+#Serarch Options
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: /favicon/favicon.ico
+    favicon16x16: /favicon/favicon-16x16.png
+    favicon32x32: /favicon/favicon-32x32.png
+    apple_touch_icon: /favicon/apple-touch-icon.png
+    safari_pinned_tab: /favicon/apple-touch-icon.png
+
+  label:
+    text: "RideRadar"
+    icon: /logo/logo_light.png #Should be light logo
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: RideRadar
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi! Welcome to RideRadar 🚗"
+    Content: "RideRadar is your ultimate destination for all things automotive. 
+    From in-depth car and motorcycle reviews to road trip adventures, latest automotive news and updates, maintenance and repair tips, and buying guides, RideRadar has you covered.
+    Explore the world of automobiles with RideRadar and stay informed and inspired on your journey"
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: facebook
+      url: "https://Facebook.com"
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  #editPost:
+    #URL: "https://github.com/<path_to_repo>/content"
+    #Text: "Suggest Changes" # edit text
+    #appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: Home
+      name: 🏠Home
+      url: /
+      weight: 10
+    - identifier: categories
+      name: 📚Categories
+      url: /Posts/
+      weight: 20
+    - identifier: tags
+      name: 🧩Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: ⏱️Archives
+      url: /archives/
+      weight: 40
+    - identifier: about
+      url: /about/
+      weight: 50
+    - identifier: search
+      name: 🔍Search
+      url: /Search/
+      weight: 60      
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
