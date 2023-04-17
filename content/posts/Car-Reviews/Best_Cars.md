@@ -7,6 +7,7 @@ tags: ["TopCars", "LuxuryCars", "PerformanceCars", "ExoticCars", "AutomotiveEngi
 categories: ["Car Reviews"]
 author: "Sanka"
 description: "Explore the ultimate list of the world's top 10 cars, from luxury and performance cars to exotic supercars. Discover cutting-edge automotive engineering, driving experiences, innovative technology, and more. Find your dream car among the best in the industry."
+canonicalURL: "/Top-10-Cars-in-the-World"
 cover:
     image: Cover_img/Best-Cars.webp # image path/url
     alt: "Best Cars" # alt text
