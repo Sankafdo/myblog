@@ -23,10 +23,7 @@ RideRadar is a premier online destination for automotive enthusiasts and riders 
 ## Our Mission
 
 {{ $opts := (dict
-  "src" "images/car.jpg" // relative to the the assets folder as no page context has been provided
-  // optional 
-  "widths" (slice 400 800 1200) // override default responsive widths. 
-  "sizes" [string] // set the sizes property for the image tag, defaults to "100vw" or "auto" if lazysizes is enabled in the config and installed into the website
+ "src" "images/Car.jpg"
   )}}
 {{ partial "image" $opts }}
 
