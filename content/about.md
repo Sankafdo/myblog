@@ -25,7 +25,7 @@ RideRadar is a premier online destination for automotive enthusiasts and riders 
 
 ### OurMission
 
-{{< imgh src="/images/Car.jpg" alt="Yellow Car" >}}
+{{< imgf src="/images/Car.jpg" alt="Yellow Car" >}}
 
 Our mission at RideRadar is to provide a comprehensive and engaging platform that caters to the diverse interests of automotive enthusiasts. From car and motorcycle reviews, road trip adventures, automotive news and updates, to maintenance tips, buying guides, and beyond, RideRadar is your go-to source for all things automotive.
 
