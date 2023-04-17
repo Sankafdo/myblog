@@ -21,7 +21,8 @@ Cars have become an essential part of modern society, providing convenience, spe
 
 ## Criteria for Selecting the Top Cars
 
-{{< imgf src="images/test.webp" caption="Toyota Car" alt="Car on the road" >}}
+{{< imgf src="images/test.webp" caption="Toyota Car" alt="Car on the road" sizes=" 360px, 50vw">}}
+
 
 Selecting the top cars requires a thorough evaluation based on several factors. These factors include the features and specifications, performance and reliability, luxury and comfort, technology and innovation, design and style, fuel efficiency and environmental friendliness, price and value for money, and customer reviews and ratings.
 
