@@ -21,6 +21,15 @@ cover:
 RideRadar is a premier online destination for automotive enthusiasts and riders alike. Whether you're a car lover, motorcycle aficionado, or simply passionate about all things on wheels, RideRadar has you covered.
 
 ## Our Mission
+
+{{ $opts := (dict
+  "src" "images/car.jpg" // relative to the the assets folder as no page context has been provided
+  // optional 
+  "widths" (slice 400 800 1200) // override default responsive widths. 
+  "sizes" [string] // set the sizes property for the image tag, defaults to "100vw" or "auto" if lazysizes is enabled in the config and installed into the website
+  )}}
+{{ partial "image" $opts }}
+
 Our mission at RideRadar is to provide a comprehensive and engaging platform that caters to the diverse interests of automotive enthusiasts. From car and motorcycle reviews, road trip adventures, automotive news and updates, to maintenance tips, buying guides, and beyond, RideRadar is your go-to source for all things automotive.
 
 ## Expert Insights
