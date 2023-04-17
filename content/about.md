@@ -16,16 +16,14 @@ cover:
     caption: ""
     alt: ""
     relative: false
+ showtoc: false
 ---
 
 RideRadar is a premier online destination for automotive enthusiasts and riders alike. Whether you're a car lover, motorcycle aficionado, or simply passionate about all things on wheels, RideRadar has you covered.
 
-## Our Mission
+{{< imgf src="images/test.webp" caption="Yellow Car" alt="Car on the road" >}}
 
-{{ $opts := (dict
- "src" "images/Car.jpg"
-  )}}
-{{ partial "image" $opts }}
+## Our Mission
 
 Our mission at RideRadar is to provide a comprehensive and engaging platform that caters to the diverse interests of automotive enthusiasts. From car and motorcycle reviews, road trip adventures, automotive news and updates, to maintenance tips, buying guides, and beyond, RideRadar is your go-to source for all things automotive.
 
