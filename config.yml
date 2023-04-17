@@ -169,7 +169,3 @@ outputs:
         - HTML
         - RSS
         - JSON
-
-module:
-  imports:
-  - path: github.com/future-wd/hugo-responsive-images
