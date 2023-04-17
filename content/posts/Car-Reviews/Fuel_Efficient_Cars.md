@@ -40,6 +40,8 @@ In today's world, environmental consciousness has become a significant concern f
 
 ## Introduction
 
+{{< figure src="/images/car.jpeg" title=">Yellow Car" >}}
+
 Fuel efficiency is the measure of how effectively a vehicle uses fuel to generate power and move. Higher fuel efficiency means the vehicle can travel longer distances with less fuel consumption, resulting in reduced greenhouse gas emissions and lower fuel costs. As concerns about the environment and the impact of human activities on the planet continue to grow, many car buyers are prioritizing fuel efficiency when choosing a new car.
 
 ## Importance of Fuel Efficiency for Eco-Conscious Drivers
