@@ -20,6 +20,8 @@ Cars have become an essential part of modern society, providing convenience, spe
 
 ## Criteria for Selecting the Top Cars
 
+{{< imgf src="images/test.webp" caption="Marking holes" alt="Marking out ventilator holes on aluminium frame" >}}
+
 Selecting the top cars requires a thorough evaluation based on several factors. These factors include the features and specifications, performance and reliability, luxury and comfort, technology and innovation, design and style, fuel efficiency and environmental friendliness, price and value for money, and customer reviews and ratings.
 
 ## Ranking of the Top 10 Cars
